@@ -5,6 +5,6 @@ using namespace std;
 
 int main(){
 	
-	int a= random0N(9);
+	float a= randomNM_float(2,47);
 	cout << a;
 }
