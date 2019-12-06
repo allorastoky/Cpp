@@ -288,4 +288,19 @@ int posizioneMaggiore(float v[], int n) {
 	}
 	return index_max;
 }
-
+void inverti(int v[], int n) {
+	int c;
+	for(int i=0; i<(n/2)-1; i++){
+		c= v[i];
+		v[i]=v[n-i];
+		v[n-i]=c;
+	}
+}
+void inverti(float v[], int n){
+		int c;
+	for(int i=0; i<(n/2)-1; i++){
+		c= v[i];
+		v[i]=v[n-i];
+		v[n-i]=c;
+	}
+}
